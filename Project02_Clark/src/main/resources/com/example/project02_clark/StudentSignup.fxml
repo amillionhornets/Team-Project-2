@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="500" prefWidth="500" spacing="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project02_clark.StudentSignupController">
+    <Label text="Student Signup " />
+    <TextField fx:id="emailField" prefHeight="26.0" prefWidth="400.0" promptText="Enter your email" />
+    <TextField fx:id="nameField" prefHeight="13.0" prefWidth="400.0" promptText="Enter your name" />
+    <TextField fx:id="BField" prefHeight="15.0" prefWidth="400.0" promptText="Enter your B number" />
+    <PasswordField fx:id="passwordField" prefHeight="15.0" prefWidth="284.0" promptText="Enter your password" />
+    <Button fx:id="signupButton" onAction="#signup" prefHeight="6.0" prefWidth="56.0" text="Signup" />
+    <Button fx:id="backButton" mnemonicParsing="false" onAction="#back" text="Back" />
+    <Label fx:id="alertLabel" text=" " />
+</VBox>

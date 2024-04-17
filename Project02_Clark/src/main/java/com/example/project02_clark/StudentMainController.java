@@ -8,14 +8,14 @@ import javafx.scene.control.Button;
 
 import java.io.IOException;
 
-public class MainController {
+public class StudentMainController {
     @FXML
     private Button signupButton, loginButton;
 
     // Method to open the signup window
     public void signup() {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("Signup.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("StudentSignup.fxml"));
             Stage stage = new Stage();
             stage.setScene(new Scene(loader.load()));
             stage.show();
@@ -27,7 +27,7 @@ public class MainController {
     // Method to open the login window
     public void login() {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("Login.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("StudentLogin.fxml"));
             Stage stage = new Stage();
             stage.setScene(new Scene(loader.load()));
             stage.show();

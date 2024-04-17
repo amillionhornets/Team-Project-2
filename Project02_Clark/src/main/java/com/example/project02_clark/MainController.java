@@ -35,4 +35,24 @@ public class MainController {
             e.printStackTrace();
         }
     }
+    public void professorsignup() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("ProfessorSignup.fxml"));
+            Stage stage = new Stage();
+            stage.setScene(new Scene(loader.load()));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    public void professorlogin() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("ProfessorLogin.fxml"));
+            Stage stage = new Stage();
+            stage.setScene(new Scene(loader.load()));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

@@ -4,13 +4,16 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" prefHeight="159.0" prefWidth="195.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
-      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project02_clark.MainController">
+<VBox alignment="CENTER" prefHeight="159.0" prefWidth="195.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project02_clark.MainController">
   <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
   </padding>
+   <Label text="For Students:" />
 
 
-  <Button fx:id="signupButton" mnemonicParsing="false" onAction="#signup" text="Signup"/>
-  <Button fx:id="loginButton" mnemonicParsing="false" onAction="#login" text="Login"/>
+  <Button fx:id="signupButton" mnemonicParsing="false" onAction="#signup" text="Student Signup" />
+  <Button fx:id="loginButton" mnemonicParsing="false" onAction="#login" text="Student Login" />
+   <Label text="For Professors:" />
+   <Button fx:id="professorsignupButton" mnemonicParsing="false" onAction="#professorsignup" text="Professor Signup" />
+   <Button fx:id="professorloginButton" mnemonicParsing="false" onAction="#professorlogin" text="Professor Login" />
 </VBox>

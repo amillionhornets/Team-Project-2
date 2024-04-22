@@ -4,7 +4,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
-public class WelcomeController {
+public class StudentWelcomeController {
 
     @FXML
     private Label welcomeLabel;

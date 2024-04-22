@@ -1,9 +1,0 @@
-
-Morgan Clark,morganclark42@gmail.com,$2a$10$AeHGr5WSXwWhG4GoPQvRQea8hd/G3Hwg45ApKsPgo.8JSYXse6jS2
-Luke wilson,lukewilson@gmail.com,$2a$10$W4jXnrRCNNgehwjA/UilP.S5PYJu.8KfiOO9YnVFtsyV5x14OZ5QK
-mo,mo,$2a$10$P027mWxHTFGMwc6oZflXX.bisPeCqMUqzuFrrZGsBiZgeDJX27jde
-Morgan Clark,morgan.clark@my.okcu.edu,$2a$10$xIQSE6VpW0PNfjL5ga8gvevSd6mjR8ju5LhlKBGKyc4EcdKsH8bkm
-Ken,kenyatta.clark@gmail.com,$2a$10$sg0PXIKGyi1ky2A90dnBMOPYKS.kcBSEc2vdlBa/qyIxLcJOSMJTW
-dd,d,$2a$10$kj2tH3JGMdJM5wiOF2lGjeH2H68.BRBd2e9rLM0aTQwCQ67Fw13fi
-dd,d,$2a$10$50Zr2xdI9DQ4BSB12rJGtuVbyfn8tzXVLclT3Wk2EGaiglrsv7.sS
-bob dillion,bob@bob.com,$2a$10$AmBbnA3ErC/bbKkZjKFDnuoPPnwD1Y1p0izWHX2kACiYBMjtzzo9q

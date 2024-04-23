@@ -7,6 +7,9 @@ import javafx.scene.control.Alert;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class StudentSignupController {
 
@@ -41,11 +44,22 @@ public class StudentSignupController {
         // Encrypts the password using BCrypt
         String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
         System.out.println(name + "," + email + "," + password + "," + BNumber + "," + hashedPassword);
+        // Shows all the classes that the student can be assigned
+        String[] availableClasses = {
+                "Math", "English", "History", "Programming", "Yoga",
+                 "Art", "Forensic Science", "Philosophy"
+        };
+        // Gets the classlist and then Randomizes and assigns a class to the student
+        List<String> classList = Arrays.asList(availableClasses);
+        Collections.shuffle(classList);
+        List<String> assignedClasses = classList.subList(0, 1);
+        String classesString = String.join(",", assignedClasses);
+
 
         // Stores the user information in a file named studentUsers.txt
         try (PrintWriter writer = new PrintWriter(new FileWriter("studentUsers.txt", true))) {
-            writer.println(name + "," + email + "," + hashedPassword);
-            alertLabel.setText("Signup Successful!");
+            writer.println(name + "," + email + "," + hashedPassword + "," + classesString + "," + BNumber );
+            alertLabel.setText("Signup Successful!" + " " + classesString);
         } catch (IOException e) {
             e.printStackTrace();
             // Handles the exception

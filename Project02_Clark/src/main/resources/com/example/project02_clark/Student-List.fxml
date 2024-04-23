@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <VBox alignment="CENTER" styleClass="header">
+            <HBox>
+                <Button text="Back" BorderPane.alignment="CENTER_LEFT" />
+            </HBox>
+            <HBox>
+                <Label alignment="CENTER" prefHeight="30.0" prefWidth="591.0" style="-fx-font-size: 20;" text="Student List" />
+            </HBox>
+            <HBox>
+                <TextField fx:id="searchField" promptText="Search Student" />
+            </HBox>
+        </VBox>
+    </top>
+    <center>
+        <VBox alignment="CENTER" spacing="10.0" styleClass="content">
+
+            <HBox spacing="10.0">
+                <Label text="Student Name:" />
+                <Label fx:id="studentNameLabel" />
+            </HBox>
+            <HBox spacing="10.0">
+                <Label text="Student B#:" />
+                <Label fx:id="studentIdLabel" />
+            </HBox>
+            <HBox spacing="10.0">
+                <Label text="Student Year:" />
+                <Label fx:id="studentYearLabel" />
+            </HBox>
+            <HBox spacing="10.0">
+                <Label text="Courses Registered:" />
+                <Label fx:id="coursesRegisteredLabel" />
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

@@ -10,6 +10,9 @@ import org.mindrot.jbcrypt.BCrypt;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class ProfessorSignupController {
 
@@ -30,10 +33,19 @@ public class ProfessorSignupController {
         // Encrypts the password using BCrypt
         String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
         System.out.println(name + "," + email + ","+ password+","+ hashedPassword);
+        String[] availableClasses = {
+                "Math", "English", "History", "Programming", "Yoga",
+                "Art", "Forensic Science", "Philosophy"
+        };
+        // Gets the classlist and then Randomizes and assigns a class to the student
+        List<String> classList = Arrays.asList(availableClasses);
+        Collections.shuffle(classList);
+        List<String> assignedClasses = classList.subList(0, 1);
+        String classesString = String.join(",", assignedClasses);
 
         // Stores the user information in a file named users.txt
         try (PrintWriter writer = new PrintWriter(new FileWriter("professors.txt", true))) {
-            writer.println(name + "," + email + "," + hashedPassword);
+            writer.println(name + "," + email + "," + hashedPassword + "," + classesString);
         } catch (IOException e) {
             e.printStackTrace();
             // Handle the exception

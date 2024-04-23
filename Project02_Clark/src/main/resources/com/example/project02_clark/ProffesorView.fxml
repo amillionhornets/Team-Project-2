@@ -8,8 +8,6 @@
       <TableView layoutY="30.0" prefHeight="368.0" prefWidth="600.0">
         <columns>
           <TableColumn prefWidth="75.0" text="Lectures" />
-          <TableColumn prefWidth="75.0" text="Days" />
-            <TableColumn prefWidth="75.0" text="Time" />
             <TableColumn prefWidth="75.0" text="Student List" />
         </columns>
          <columnResizePolicy>
@@ -17,6 +15,6 @@
          </columnResizePolicy>
       </TableView>
       <Button layoutX="14.0" layoutY="5.0" mnemonicParsing="false" text="Sign Out" />
-      <Label layoutX="246.0" layoutY="9.0" text="Professor Class View" />
+      <Label layoutX="240.0" layoutY="8.0" text="Professor Lecture View" />
    </children>
 </AnchorPane>

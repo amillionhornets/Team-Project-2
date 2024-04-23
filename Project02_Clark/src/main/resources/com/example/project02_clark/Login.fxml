@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" spacing="10" prefWidth="500" prefHeight="500" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project02_clark.LoginController">
+    <Label text="Login Form" />
+    <TextField fx:id="emailField" promptText="Enter your email" />
+    <PasswordField fx:id="passwordField" promptText="Enter your password" />
+    <Button fx:id="loginButton" text="Login" onAction="#login"/>
+    <Button fx:id="backButton" mnemonicParsing="false" text="Back" onAction="#back" />
+</VBox>

@@ -58,7 +58,7 @@ public class StudentSignupController {
 
         // Stores the user information in a file named studentUsers.txt
         try (PrintWriter writer = new PrintWriter(new FileWriter("studentUsers.txt", true))) {
-            writer.println(name + "," + email + "," + hashedPassword + "," + classesString);
+            writer.println(name + "," + email + "," + hashedPassword + "," + classesString + "," + BNumber );
             alertLabel.setText("Signup Successful!" + " " + classesString);
         } catch (IOException e) {
             e.printStackTrace();

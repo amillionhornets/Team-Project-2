@@ -1,1 +1,10 @@
+<<<<<<< Updated upstream
 test,test,$2a$10$.Z4klUV5RFxRicG9iNE7m.tmgypaOWf10iEKJBs4WC.kBW8TFrSkq
+=======
+Luke,thevideoprodigy101@gmail.com,$2a$10$nwB/E5FaSicwVeM9t2RRg.8KAoXhDkDshfot98ZpiQocOAL0/J4Zy
+Phil,goodLuckCharlie@yahoo.net,$2a$10$yqzoSFKIDXRvVeFvIY538Ohip14URnPj2.igQgHwxYm69PbiSxUfy
+Ramona,shrekkyBoi@linkedin.gov,$2a$10$1g/Dzp5Yeh5TGbUu1hIz6ujPmebD71RNzCC4LrXlR8WMnid2dsjpO
+Jacobathan,DarthieValGod@necc.edu,$2a$10$obEQuW1F5kIUAJ1CBrrguuBYo6yTffEAvPcNY3jUtJKkSyMOnuXCu
+Holster,LambdaChaiEnthusiast@hazeing.frat,$2a$10$qC3JVTpufYL5aHRjCgt.N.2tE3jQlJ6Ym2bEYPh6CfYWHhNWDGyZ.
+Beary,hairboGummies@myspace.com,$2a$10$EijW.9TW3edVP3lMFIXHdO8dJY37Jik4AR2/NuHwVw39SkejpPZJm
+>>>>>>> Stashed changes

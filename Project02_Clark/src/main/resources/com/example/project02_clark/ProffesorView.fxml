@@ -5,7 +5,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project02_clark.ProffesorView">
    <children>
-      <TableView layoutY="30.0" prefHeight="368.0" prefWidth="600.0">
+      <TableView layoutY="30.0" prefHeight="301.0" prefWidth="600.0">
         <columns>
           <TableColumn prefWidth="75.0" text="Lectures" />
             <TableColumn prefWidth="75.0" text="Student List" />
@@ -14,7 +14,11 @@
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
          </columnResizePolicy>
       </TableView>
-      <Button layoutX="14.0" layoutY="5.0" mnemonicParsing="false" text="Sign Out" />
+      <Button id="signOutBtn" layoutX="14.0" layoutY="5.0" mnemonicParsing="false" text="Sign Out" />
       <Label layoutX="240.0" layoutY="8.0" text="Professor Lecture View" />
+      <Button id="addBtn" layoutX="110.0" layoutY="355.0" mnemonicParsing="false" text="Add" />
+      <Button id="updateBtn" layoutX="272.0" layoutY="355.0" mnemonicParsing="false" text="Update" />
+      <Button id="deleteBtn" layoutX="432.0" layoutY="355.0" mnemonicParsing="false" text="Delete" />
+      <Label layoutX="397.0" layoutY="9.0" textFill="WHITE" />
    </children>
 </AnchorPane>

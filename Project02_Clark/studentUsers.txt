@@ -1,4 +1,2 @@
-Dylan,123@gmail.com,$2a$10$cDPZrRldn1nrphOeXakiDelHplESzIIX5Pj38LYpTDzH..0LHSdcK,Yoga,B12348765
-Luke,luke@gmail.com,$2a$10$FqkO3cXCOXYxKHZQw5JVq.X7FG.jJAFD190MGBHG8khgyNc5HTxwe,Yoga,B56742077
-Bob,coolemail420@gmail.com,$2a$10$Eh3VFywGilV0lciTNBrjCuat56ur/pS2Y3vvXseECg/3Ov0KjCrIK,Forensic Science,B01234567
-Rick,email@hotmail.net,$2a$10$gx2oa4les607tLVFB5b6A.ZDkXZMDZw8slLT.mEExklAmaV7CAKmu,Math,B87654321
+John@gmail.com,Dyl,$2a$10$hHQshGnL6gtS9SrGaA/JUOO2VcPemh2MxE3HHIsqR9r3LIg.DIfuu,Philosophy
+Dylan,123@gmail.com,$2a$10$cDPZrRldn1nrphOeXakiDelHplESzIIX5Pj38LYpTDzH..0LHSdcK,Yoga,1234

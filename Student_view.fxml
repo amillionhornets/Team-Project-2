@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="31.0" prefWidth="700.0">
+         <children>
+            <TextField prefHeight="45.0" prefWidth="150.0" text="Welcom &quot;Name here&quot;" />
+            <TextArea opacity="0.0" prefHeight="39.0" prefWidth="349.0" />
+            <TextArea layoutX="160.0" layoutY="10.0" prefHeight="39.0" prefWidth="200.0" text="Student id:" />
+         </children></HBox>
+      <BorderPane prefHeight="500.0" prefWidth="537.0">
+         <center>
+            <TableView prefHeight="500.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn id="Class_Name_Column" prefWidth="135.19997864961624" text="Class name" />
+                <TableColumn id="CRN_Column" prefWidth="94.0" text="CRN#" />
+                  <TableColumn id="Professor_Column" prefWidth="86.39997863769531" text="Professor" />
+                  <TableColumn id="CH_Column" minWidth="7.20001220703125" prefWidth="90.0" text="CH" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </center>
+      </BorderPane>
+   </children>
+</VBox>

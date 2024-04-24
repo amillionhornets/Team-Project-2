@@ -34,13 +34,13 @@ public class StudentLoginController {
             while ((line = reader.readLine()) != null) {
                 String[] userInfo = line.split(",");
                 if (userInfo.length == 3) {
-                    String storedName = userInfo [0];
-                    String storedEmail = userInfo[1];
+                    String storedName = userInfo [1];
+                    String storedEmail = userInfo[0];
                     String storedPasswordHash = userInfo[2];
 
                     // Check if entered email and password match
                     if (storedEmail.equals(email) && BCrypt.checkpw(password, storedPasswordHash)) {
-
+                        //successful login
                         showWelcomeWindow(storedName);
                         return;
                     }
@@ -68,7 +68,7 @@ public class StudentLoginController {
     // Method to show the welcome window
     private void showWelcomeWindow(String email) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("StudentWelcome.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Welcome.fxml"));
             Stage stage = new Stage();
             stage.setScene(new Scene(loader.load()));
             StudentWelcomeController controller = loader.getController();

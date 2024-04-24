@@ -3,3 +3,7 @@ nuts,balls,$2a$10$kJwKTbz2GqiClhk83rlFm.GcJwLNOyj2IPRG.e4/EyRex.RNbBDd2
 d,d,$2a$10$LotdAl0i99ynmiP/pXLPLu6slbiMAmIORsY7XC4.RTvBLevAV/Xoa
 John@gmail.com,Dyl,$2a$10$hHQshGnL6gtS9SrGaA/JUOO2VcPemh2MxE3HHIsqR9r3LIg.DIfuu,Philosophy
 Dylan,123@gmail.com,$2a$10$cDPZrRldn1nrphOeXakiDelHplESzIIX5Pj38LYpTDzH..0LHSdcK,Yoga,1234
+student,studentemail@email.com,$2a$10$3Aa55x/QEK54gHY8FLzHHOx.9UixR4dsWshUEExGZ9D.5MH6BfAy2,Art,1234
+student,email,$2a$10$KWcWdqJINsUN8xAyM23pUeiwdF.KxXMumeOb0bpfn41XMII20YD4K,Forensic Science,1234
+studentname,email@,$2a$10$ptPXbxkBIWfKHlIK8N/BVeJYD.XmrjgmY/hNcwGX1WF2rmUO/Hnji,1233
+emailemail,namename,$2a$10$Q5Ha.vKVVxPBNxUh3GvtluOeJNkliA0Lhfwd3eUwnY6VkbQq5eRzy

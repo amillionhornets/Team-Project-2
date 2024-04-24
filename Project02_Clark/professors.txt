@@ -3,3 +3,5 @@ math@aol.com,Biggs,$2a$10$SSkR5Rg58s5Nzgw7PIS96u/x5VJULvYSZ9IjIjFkQ.or8TTWVOopG,
 hacker@aol.com,Anga,$2a$10$sjdHs1wPWKYLL9JHeVTUEuX02j2uQ9P23mZej62RWpOx4IlPnkey2,Forensic Science
 schoolbus@gmai.com,Ms. Frizzle,$2a$10$fbR3DWm3zflF7o9Klq2DzORanEV2aWg01q4QoBmNzAWiYN4HlsXQC,Math
 jgrant@gmail.com,Jacob Grant,$2a$10$VpyfK9vr9YYhBCdSkCnv5ufo5RB3E38JpTlbyv0NYnnKml8wqlOY2,History
+professoremail@email.com,professor,$2a$10$kOATg1ULhpRWCGX6GhY75ecFLaKJPVOzbAE6f2UKLydBODH82xxQW,Philosophy
+email,professor,$2a$10$plDokpm1nzcJ9au0m.8FqOes/TnOx0WQyk9GuwS8oCIg.CsmsjPf2

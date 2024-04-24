@@ -8,6 +8,7 @@
     <TextField fx:id="emailField" promptText="Enter your email" />
     <TextField fx:id="nameField" promptText="Enter your name" />
     <PasswordField fx:id="passwordField" promptText="Enter your password" />
+   <Label fx:id="alertLabel" text=""/>
     <Button fx:id="signupButton" onAction="#professorsignup" prefHeight="6.0" prefWidth="56.0" text="Signup" />
-   <Button fx:id="backButton" mnemonicParsing="false" text="Back" onAction="#back" />
+   <Button fx:id="backButton" mnemonicParsing="false" onAction="#back" text="Back" />
 </VBox>

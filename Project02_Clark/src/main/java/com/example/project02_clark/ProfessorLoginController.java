@@ -33,7 +33,7 @@ public class ProfessorLoginController {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] userInfo = line.split(",");
-                if (userInfo.length == 3) {
+                if (userInfo.length >= 3) {
                     String storedName = userInfo [0];
                     String storedEmail = userInfo[1];
                     String storedPasswordHash = userInfo[2];

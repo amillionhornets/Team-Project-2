@@ -22,7 +22,7 @@ public class ProfessorLoginController {
     @FXML
     private PasswordField passwordField;
     public Button backButton;
-    public static Proffessor currentProf;
+
     // Method to handle login action
     public void professorlogin() {
         String email = emailField.getText();
@@ -33,7 +33,7 @@ public class ProfessorLoginController {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] userInfo = line.split(",");
-                if (userInfo.length >= 3) {
+                if (userInfo.length == 3) {
                     String storedName = userInfo [1];
                     String storedEmail = userInfo[0];
                     String storedPasswordHash = userInfo[2];
@@ -41,7 +41,6 @@ public class ProfessorLoginController {
                     // Check if entered email and password match
                     if (storedEmail.equals(email) && BCrypt.checkpw(password, storedPasswordHash)) {
                         // Successful login
-                        currentProf = new Proffessor(storedName);
                         showProffesorView();
                         return;
                     }

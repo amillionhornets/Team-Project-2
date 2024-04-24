@@ -33,7 +33,7 @@ public class StudentLoginController {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] userInfo = line.split(",");
-                if (userInfo.length >= 3) {
+                if (userInfo.length == 3) {
                     String storedName = userInfo [1];
                     String storedEmail = userInfo[0];
                     String storedPasswordHash = userInfo[2];

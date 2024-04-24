@@ -1,4 +1,0 @@
-jeff@aol.com,jmaxwell,$2a$10$/LD54ynvccIMRdQmepge8uxWJk1dw4BDs11/knrtBpg6LO1nMLU0.,Philosophy
-dyl2,dylClar@gmail.com,$2a$10$Mlh9wlxvAbZoWsfU57xKZOpiUrVLpUKxWadMlxOchZi8lWuBE99fm,Math
-dyl@gmail.com,dyl,$2a$10$re1plT9N.D8Kn2UqmpHVYe5eUFK.vkV4VQsViQATSjf5Z5vfkjRMe
-Maxwell@aol.com,Maxwell,$2a$10$xyvmYfBfkuQYlvfGZr/Hv.ArUs75HSOSXa0pCEqNpv7QIDX9kH/sq,Philosophy

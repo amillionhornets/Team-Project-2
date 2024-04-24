@@ -41,7 +41,7 @@ public class ProfessorLoginController {
                     // Check if entered email and password match
                     if (storedEmail.equals(email) && BCrypt.checkpw(password, storedPasswordHash)) {
                         // Successful login
-                        showWelcomeWindow(storedName);
+                        showProffesorView();
                         return;
                     }
                 }
@@ -65,13 +65,11 @@ public class ProfessorLoginController {
     }
 
     // Method to show the welcome window
-    private void showWelcomeWindow(String email) {
+    private void showProffesorView() {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("Welcome.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("ProffesorView.fxml"));
             Stage stage = new Stage();
             stage.setScene(new Scene(loader.load()));
-            WelcomeController controller = loader.getController();
-            controller.setWelcomeMessage(email);
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();

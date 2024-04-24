@@ -34,19 +34,20 @@ public class ProfessorLoginController {
             while ((line = reader.readLine()) != null) {
                 String[] userInfo = line.split(",");
                 if (userInfo.length == 3) {
-                    String storedName = userInfo [1];
-                    String storedEmail = userInfo[0];
+                    String storedName = userInfo [0];
+                    String storedEmail = userInfo[1];
                     String storedPasswordHash = userInfo[2];
 
                     // Check if entered email and password match
                     if (storedEmail.equals(email) && BCrypt.checkpw(password, storedPasswordHash)) {
                         // Successful login
-                        showProffesorView();
+                        showWelcomeWindow(storedName);
                         return;
                     }
-                }}
+                }
+            }
             // If no match found, show an error message
-            showAlert("Invalid credentials", "Invalid email or password.");
+            showAlert("Invalid credentials", "Invalid username or password.");
         } catch (IOException e) {
             e.printStackTrace();
             // Handle file reading error
@@ -64,11 +65,13 @@ public class ProfessorLoginController {
     }
 
     // Method to show the welcome window
-    private void showProffesorView() {
+    private void showWelcomeWindow(String email) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("ProffesorView.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Welcome.fxml"));
             Stage stage = new Stage();
             stage.setScene(new Scene(loader.load()));
+            WelcomeController controller = loader.getController();
+            controller.setWelcomeMessage(email);
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();

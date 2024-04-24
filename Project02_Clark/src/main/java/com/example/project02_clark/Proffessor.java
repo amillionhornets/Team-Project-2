@@ -1,13 +1,15 @@
 package com.example.project02_clark;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+
 public class Proffessor
 {
     private String name;
     private String email;
     private String[] lectures;
-    public Proffessor(String name, String[] lectures) {
+    public Proffessor(String name) {
         this.name = name;
-        this.lectures = lectures;
     }
     public String getName() {
         return name;
@@ -33,5 +35,11 @@ public class Proffessor
         this.lectures = lectures;
     }
 
-
+//    public static ObservableList getProfData() {
+//        ObservableList<Proffessor> prof = FXCollections.observableArrayList();
+//
+//        var loggedInProf = new Proffessor(currentProf.getName(), );
+//
+//        return people;
+//    }
 }

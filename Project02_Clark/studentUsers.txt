@@ -1,8 +1,5 @@
-<<<<<<< Updated upstream
 fdfdf,liudf,$2a$10$1tk.vAmIOI07EHSMLVg6D.vf5dSf30WSWn8BjkkY3JCmd8WzWEyRy
 nuts,balls,$2a$10$kJwKTbz2GqiClhk83rlFm.GcJwLNOyj2IPRG.e4/EyRex.RNbBDd2
 d,d,$2a$10$LotdAl0i99ynmiP/pXLPLu6slbiMAmIORsY7XC4.RTvBLevAV/Xoa
 John@gmail.com,Dyl,$2a$10$hHQshGnL6gtS9SrGaA/JUOO2VcPemh2MxE3HHIsqR9r3LIg.DIfuu,Philosophy
 Dylan,123@gmail.com,$2a$10$cDPZrRldn1nrphOeXakiDelHplESzIIX5Pj38LYpTDzH..0LHSdcK,Yoga,1234
-=======
->>>>>>> Stashed changes

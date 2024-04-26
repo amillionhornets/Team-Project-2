@@ -1,5 +1,0 @@
-test@aol.com,maxwell1,$2a$10$HDY/yk3f2DEnUsly/.fbTu4mAgOFf4sdEzGKCTrCGWWCAknvoBI72,Philosophy
-math@aol.com,Biggs,$2a$10$SSkR5Rg58s5Nzgw7PIS96u/x5VJULvYSZ9IjIjFkQ.or8TTWVOopG,Programming
-hacker@aol.com,Anga,$2a$10$sjdHs1wPWKYLL9JHeVTUEuX02j2uQ9P23mZej62RWpOx4IlPnkey2,Forensic Science
-schoolbus@gmai.com,Ms. Frizzle,$2a$10$fbR3DWm3zflF7o9Klq2DzORanEV2aWg01q4QoBmNzAWiYN4HlsXQC,Math
-jgrant@gmail.com,Jacob Grant,$2a$10$VpyfK9vr9YYhBCdSkCnv5ufo5RB3E38JpTlbyv0NYnnKml8wqlOY2,History

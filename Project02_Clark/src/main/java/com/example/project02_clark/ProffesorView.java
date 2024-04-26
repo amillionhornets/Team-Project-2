@@ -3,10 +3,13 @@ package com.example.project02_clark;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
 import org.mindrot.jbcrypt.BCrypt;
 
 import java.io.BufferedReader;
@@ -41,7 +44,7 @@ public class ProffesorView {
 
                 }
                 lecturesCol.setCellValueFactory(new PropertyValueFactory<Proffessor, String>("name"));
-                studentList.setCellValueFactory(new PropertyValueFactory<Proffessor, String>("email"));
+                studentList.setCellValueFactory(new PropertyValueFactory<Proffessor, String>("lectures"));
                 profs = Proffessor.getDummyData();
                 profTable.setItems(profs);
             }
@@ -56,5 +59,21 @@ public class ProffesorView {
         readFile();
         System.out.println("Worked");
 
+    }
+    private void showStudents() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Student-List.fxml"));
+            Stage stage = new Stage();
+            stage.setScene(new Scene(loader.load()));
+
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+            // Handle window loading error
+        }
+    }
+
+    public void switchToSudentPage(ActionEvent actionEvent) {
+        showStudents();
     }
 }

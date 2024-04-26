@@ -1,3 +1,2 @@
-123,Dyl,$2a$10$n9jDN.6p.afW.LwYwoFjqOr9rBhCqexKIS1GIuO0gLPM4FdHkCLGO,Art
-dyl,dyl,$2a$10$goZ2fHCibjUZDCgo314o2e4HNcMGpMOrlh48fa2f/s6izwQM2jrqS,English
-test,test,$2a$10$2QgWvWcEtBc.wegdS3/4mORirZwmz1Yl03S1n7P4avhs7tbut7S1K,History
+professor name,email@email.com,$2a$10$0sr7KZDRVrIz2NMNlhMLHeyL1mFh59w2Ba6yHL0oNOthYNfQetbd2,Math
+Jeff Maxwell,jmaxwell@okcu.edu,$2a$10$fSq1KzKOwtgQzRwknHijJezwzdQpOLSc6v/Vj1hMM9sc08Nf4ykai,History

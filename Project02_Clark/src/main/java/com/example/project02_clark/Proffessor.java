@@ -2,15 +2,19 @@ package com.example.project02_clark;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import org.mindrot.jbcrypt.BCrypt;
 
-public class Proffessor
-{
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Proffessor {
     private String name;
     private String email;
-    private String[] lectures;
-    public Proffessor(String name, String email) {
+    private String lectures;
+    public Proffessor(String name, String lectures) {
         this.name = name;
-        this.email = email;
+        this.lectures = lectures;
     }
     public String getName() {
         return name;
@@ -28,24 +32,42 @@ public class Proffessor
         this.email = email;
     }
 
-    public String[] getLectures() {
+    public String getLectures() {
         return lectures;
     }
 
-    public void setLectures(String[] lectures) {
+    public void setLectures(String lectures) {
         this.lectures = lectures;
     }
 
     public static ObservableList getDummyData() {
         ObservableList<Proffessor> people = FXCollections.observableArrayList();
-        String[] availableClasses = {
-                "Math", "English", "History", "Programming", "Yoga",
-                "Art", "Forensic Science", "Philosophy"
-        };
-        var person1 = new Proffessor("jeff", "aol.com");
+        var person1 = new Proffessor("jeff", ProfessorLoginController.currentProf.getLectures());
         people.add(person1);
 
 
         return people;
     }
+    private String[] getProfClasses(){
+        try (BufferedReader reader = new BufferedReader(new FileReader("professors.txt"))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] userInfo = line.split(",");
+                if (userInfo.length >= 3) {
+                    String storedName = userInfo [0];
+
+
+                    // Check if entered email and password match
+                    if (storedName == ProfessorLoginController.currentProf.getName()) {
+
+                    }
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+
+        }
+        return new String[0];
+    }
+
 }

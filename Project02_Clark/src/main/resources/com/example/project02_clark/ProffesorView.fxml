@@ -5,10 +5,10 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project02_clark.ProffesorView">
    <children>
-      <TableView fx:id="profTable" layoutY="30.0" prefHeight="301.0" prefWidth="600.0">
+      <TableView layoutY="30.0" prefHeight="301.0" prefWidth="600.0">
         <columns>
-          <TableColumn fx:id="lecturesCol" prefWidth="75.0" text="Lectures" />
-            <TableColumn fx:id="studentList" prefWidth="75.0" text="Student List" />
+          <TableColumn fx:id="lecturesCol" prefWidth="75.0" text="Professor Name" />
+            <TableColumn fx:id="studentList" prefWidth="75.0" text="Lecture" />
         </columns>
          <columnResizePolicy>
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
@@ -16,9 +16,10 @@
       </TableView>
       <Button id="signOutBtn" layoutX="14.0" layoutY="5.0" mnemonicParsing="false" text="Sign Out" />
       <Label layoutX="240.0" layoutY="8.0" text="Professor Lecture View" />
-      <Button id="addBtn" layoutX="110.0" layoutY="355.0" mnemonicParsing="false" text="Add" />
-      <Button fx:id="updateBtn" onAction="#refreshTable" layoutX="272.0" layoutY="355.0" mnemonicParsing="false" text="Update" />
-      <Button id="deleteBtn" layoutX="432.0" layoutY="355.0" mnemonicParsing="false" text="Delete" />
+      <Button id="addBtn" layoutX="195.0" layoutY="355.0" mnemonicParsing="false" text="Add" />
+      <Button fx:id="updateBtn" layoutX="332.0" layoutY="355.0" mnemonicParsing="false" onAction="#refreshTable" text="Update" />
+      <Button id="deleteBtn" layoutX="474.0" layoutY="355.0" mnemonicParsing="false" text="Delete" />
       <Label layoutX="397.0" layoutY="9.0" textFill="WHITE" />
+      <Button onAction="#switchToSudentPage" layoutX="25.0" layoutY="355.0" mnemonicParsing="false" text="View Student List" />
    </children>
 </AnchorPane>

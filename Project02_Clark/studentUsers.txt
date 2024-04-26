@@ -1,2 +1,0 @@
-John@gmail.com,Dyl,$2a$10$hHQshGnL6gtS9SrGaA/JUOO2VcPemh2MxE3HHIsqR9r3LIg.DIfuu,Philosophy
-Dylan,123@gmail.com,$2a$10$cDPZrRldn1nrphOeXakiDelHplESzIIX5Pj38LYpTDzH..0LHSdcK,Yoga,1234

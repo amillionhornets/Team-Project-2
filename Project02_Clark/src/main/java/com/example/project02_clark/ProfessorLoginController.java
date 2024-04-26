@@ -22,6 +22,7 @@ public class ProfessorLoginController {
     @FXML
     private PasswordField passwordField;
     public Button backButton;
+    public static Proffessor currentProf;
 
     // Method to handle login action
     public void professorlogin() {
@@ -41,6 +42,8 @@ public class ProfessorLoginController {
                     // Check if entered email and password match
                     if (storedEmail.equals(email) && BCrypt.checkpw(password, storedPasswordHash)) {
                         // Successful login
+
+                        currentProf = new Proffessor(storedName, userInfo[3]);
                         showProffesorView();
                         return;
                     }

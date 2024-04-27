@@ -35,8 +35,8 @@ public class ProfessorLoginController {
             while ((line = reader.readLine()) != null) {
                 String[] userInfo = line.split(",");
                 if (userInfo.length >= 3) {
-                    String storedName = userInfo [1];
-                    String storedEmail = userInfo[0];
+                    String storedName = userInfo [0];
+                    String storedEmail = userInfo[1];
                     String storedPasswordHash = userInfo[2];
 
                     // Check if entered email and password match
@@ -44,6 +44,8 @@ public class ProfessorLoginController {
                         // Successful login
                         // Store which prof is logged in and what they teach
                         currentProf = new Proffessor(storedName, userInfo[3]);
+                        currentProf.setEmail(storedEmail);
+                        currentProf.setPass(storedPasswordHash);
                         showProffesorView();
                         return;
                     }

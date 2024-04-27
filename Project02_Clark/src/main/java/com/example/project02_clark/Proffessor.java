@@ -12,6 +12,16 @@ public class Proffessor {
     private String name;
     private String email;
     private String lecture;
+
+    public String getPass() {
+        return Pass;
+    }
+
+    public void setPass(String pass) {
+        Pass = pass;
+    }
+
+    private String Pass;
     private ObservableList<Proffessor> lectureList = FXCollections.observableArrayList();
     public Proffessor(String name, String lectures) {
         this.name = name;
@@ -53,6 +63,6 @@ public class Proffessor {
         lectureList.add(professor);
     }
     public ObservableList<Proffessor> getLectureList(){
-        return FXCollections.unmodifiableObservableList(lectureList);
+        return FXCollections.observableList(lectureList);
     }
 }

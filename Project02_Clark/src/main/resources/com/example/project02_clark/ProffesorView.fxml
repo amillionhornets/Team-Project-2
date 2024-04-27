@@ -16,10 +16,12 @@
       </TableView>
       <Button id="signOutBtn" layoutX="14.0" layoutY="5.0" mnemonicParsing="false" text="Sign Out" />
       <Label layoutX="240.0" layoutY="8.0" text="Professor Lecture View" />
-      <Button id="addBtn" layoutX="195.0" layoutY="355.0" mnemonicParsing="false" text="Add" />
-      <Button fx:id="updateBtn" layoutX="332.0" layoutY="355.0" mnemonicParsing="false" onAction="#refreshTable" text="Update" />
-      <Button id="deleteBtn" layoutX="474.0" layoutY="355.0" mnemonicParsing="false" text="Delete" />
+      <Button id="addBtn" onAction="#addClass" layoutX="228.0" layoutY="332.0" mnemonicParsing="false" text="Add" />
+      <Button fx:id="updateBtn" layoutX="76.0" layoutY="366.0" mnemonicParsing="false" onAction="#refreshTable" text="Refresh" />
+      <Button id="deleteBtn" onAction="#deleteRecord" layoutX="215.0" layoutY="366.0" mnemonicParsing="false" text="Delete" />
       <Label layoutX="397.0" layoutY="9.0" textFill="WHITE" />
-      <Button onAction="#switchToSudentPage" layoutX="25.0" layoutY="355.0" mnemonicParsing="false" text="View Student List" />
+      <Button layoutX="22.0" layoutY="332.0" mnemonicParsing="false" onAction="#switchToSudentPage" text="View Student List" />
+      <Label layoutX="306.0" layoutY="336.0" text="Lecture Name" />
+      <TextField fx:id="lectureTxtField" layoutX="389.0" layoutY="332.0" />
    </children>
 </AnchorPane>

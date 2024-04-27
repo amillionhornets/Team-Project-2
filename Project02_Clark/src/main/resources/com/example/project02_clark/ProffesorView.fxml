@@ -14,7 +14,6 @@
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
          </columnResizePolicy>
       </TableView>
-      <Button id="signOutBtn" layoutX="14.0" layoutY="5.0" mnemonicParsing="false" text="Sign Out" />
       <Label layoutX="240.0" layoutY="8.0" text="Professor Lecture View" />
       <Button id="addBtn" onAction="#addClass" layoutX="228.0" layoutY="332.0" mnemonicParsing="false" text="Add" />
       <Button fx:id="updateBtn" layoutX="76.0" layoutY="366.0" mnemonicParsing="false" onAction="#refreshTable" text="Refresh" />

@@ -42,8 +42,10 @@ public class ProfessorLoginController {
                     // Check if entered email and password match
                     if (storedEmail.equals(email) && BCrypt.checkpw(password, storedPasswordHash)) {
                         // Successful login
-
+                        // Store which prof is logged in and what they teach
                         currentProf = new Proffessor(storedName, userInfo[3]);
+                        currentProf.setEmail(storedEmail);
+                        currentProf.setPass(storedPasswordHash);
                         showProffesorView();
                         return;
                     }

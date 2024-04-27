@@ -1,2 +1,5 @@
 professor name,email@email.com,$2a$10$0sr7KZDRVrIz2NMNlhMLHeyL1mFh59w2Ba6yHL0oNOthYNfQetbd2,Math
 Jeff Maxwell,jmaxwell@okcu.edu,$2a$10$fSq1KzKOwtgQzRwknHijJezwzdQpOLSc6v/Vj1hMM9sc08Nf4ykai,History
+test,dyl@proton.com,$2a$10$IpRpbQlcVcF76B2bLUW4LON.cG39clte8jKWtW0FXpi4pAbVIu8iG,English,Philosophy,History,Tetris,Fortnite
+Biggs,dyl@aol.com,$2a$10$jSla0MYA.LsF23IYR/R.MOK/600QgBaKUkJk3u7EfWB.GlO/xmaju,Philosophy,History,Tetris,Fortnite
+dyl,dyl@gmail.com,$2a$10$vNtOadB/wZYlGuIe.x7Nsego/7cS6mll/yWzQkPt6tCVOBbI7iWae,Forensic Science,Tetris 3
